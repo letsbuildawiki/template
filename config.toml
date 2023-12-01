@@ -1,0 +1,7 @@
+[project]
+pretty_name = "UPS"
+repo_name = "ups"
+
+[[project.folders]]
+label = "World Ship"
+directory = "world-ship"

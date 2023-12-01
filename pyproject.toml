@@ -1,0 +1,12 @@
+[tool.ruff]
+preview = true
+unsafe-fixes = true
+target-version = "py312"
+select = ["ALL"]
+line-length = 120
+ignore = [
+    "CPY001", # (Missing copyright notice at top of file) - No license
+]
+
+[tool.ruff.pydocstyle]
+convention = "numpy"
