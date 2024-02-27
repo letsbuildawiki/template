@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Install, build, and upload your site"
-        uses: withastro/action@9a7959a16949e620a22e74f81c10cb7ce3b76924 # v0.3.0
+        uses: withastro/action@acfe56dffc635abfb9506c77d51ce097030360d1 # v0.3.0
 
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
@@ -33,4 +33,4 @@ jobs:
     steps:
       - name: "Deploy to GitHub Pages"
         id: deployment
-        uses: actions/deploy-pages@87c3283f01cd6fe19a0ab93a23b2f6fcba5a8e42 # v4.0.3
+        uses: actions/deploy-pages@decdde0ac072f6dcbe43649d82d9c635fff5b4e4 # v4.0.4
